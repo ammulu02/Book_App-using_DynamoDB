@@ -10,6 +10,15 @@ resource "aws_instance" "bookapp_instance" {
     Name = "bookapp_instance"
   }
 
+  # Declare your input variables
+variable "aws_access_key" {
+  description = "AWS Access Key"
+}
+
+variable "aws_secret_key" {
+  description = "AWS Secret Key"
+}
+
   root_block_device {
     volume_size = 30
     volume_type = "gp2"
