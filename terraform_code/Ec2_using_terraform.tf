@@ -114,7 +114,7 @@ resource "aws_instance" "bookapp_instance" {
   key_name      = aws_key_pair.key_pair.key_name
   security_groups = [aws_security_group.sg_ec2.name]
   
-  subnet_id     = "subnet-0ad812240ac7ad07c | my-subnet-01"  # Replace with the ID of your desired subnet
+  subnet_id     = "subnet-0ad812240ac7ad07c"  # Replace with the ID of your desired subnet
   
   tags = {
     Name = "bookapp_instance"
