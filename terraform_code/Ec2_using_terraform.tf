@@ -120,6 +120,8 @@ resource "aws_instance" "bookapp_instance" {
     Name = "bookapp_instance"
   }
 
+  
+
   root_block_device {
     volume_size = 30
     volume_type = "gp2"
