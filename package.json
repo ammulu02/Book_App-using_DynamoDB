@@ -11,7 +11,7 @@
     "crud",
     "mongodb"
   ],
-  "author": "ammu",
+  "author": "ammulu",
   "license": "ISC",
   "dependencies": {
     "aws-sdk": "^2.1444.0",
