@@ -1,4 +1,4 @@
-# BOOK_Application_using_BynamoDb
+# BOOK_Application_using_DynamoDb
 In this project, we are going to create a Book Management web application 
 
 #### To Run this project Clone it and install modules using
